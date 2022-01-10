@@ -122,7 +122,7 @@ if __name__ == '__main__':
 	# import ipdb; ipdb.set_trace()
 
 	# saving peewee model
-	data = class_generator('kpi_main_division_hour_task', headers)
+	data = class_generator('table_name', headers)
 	
 	# table with headers
 	data.create_table()
